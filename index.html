@@ -1,38 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Nakamawiki: elaborado por Alumnos de 1ro de DAM">
-    <title>NakamaWiki | Diario instructivo sobre algunas frutas del diablo del mundo de One Piece</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>NakamaWiki | Diccionario de Frutas del Diablo</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
 </head>
-<body>
-    <header>       
-    <h1>DevilFruitwiki</h1>    
-    <p> informacion actualizada diariamente las 24/7</p>
+<body class="fondo">
+    <header class="cabezera">       
+        <h1>DevilFruitWiki</h1>    
+        <p>Información actualizada diariamente 24/7</p>
     </header>
 
-    <nav>   
-        <ul>
-            <li><a href="#Principal"></a></li>
-            <li><a href="#Paramecia"></a></li>
-            <li><a href="#Logia"></a></li>
-            <li><a href="#Zoan"></a></li>
+    <nav class="nav">   
+        <ul class="nav-contenido">
+            <li><a href="#inicio">Principal</a></li>
+            <li><a href="#paramecia">Paramecia</a></li>
+            <li><a href="#logia">Logia</a></li>
+            <li><a href="#zoan">Zoan</a></li>
         </ul>
     </nav>
+
+            <div class="text-inicio">
+                <p>Este es el 1° artículo destacado.</p>
+                <p>«Fruta del diablo» ha sido elegido por los usuarios como <strong>uno de los mejores</strong> de esta Wiki.</p>
+            </div>
+            </div>
+    
+
     <main>
-        <div class="columna-central">   
-            <article>
-                <header> 
-                    <h2>Las frutas del Diablo: </h2>
-                    <p> Las frutas del diablo (悪魔の実 akuma no mi?) son unas frutas misteriosas y peculiares repartidas por el mundo, 
-                        conocidas por otorgar a sus consumidores poderes sobrehumanos, así como una gran debilidad al agua marina, 
-                        arrebatando la capacidad de nadar a sus usuarios.</p>
-                        
-                    <p> <em>«Fruta del diablo» ha sido elegido por los usuarios como uno de los mejores de esta Wiki.</em></p>
-                </header>
+        <section  id="inicio">
+            <article >
+                <h2>Las Frutas del Diablo</h2>
+                <p>Las <strong>Frutas del Diablo</strong> (<em>Akuma no mi</em>) son tesoros legendarios que otorgan habilidades sobrehumanas a cambio de la capacidad de nadar. 
+                    Únicas en su especie y clasificadas en tres tipos —<strong>Paramecia, Logia y Zoan</strong>—, estas frutas definen el equilibrio de poder en el mundo de One Piece.</p>
             </article>
-        </div>
+        </section>
+
+        <section id="paramecia" class="tipo-overlay" data-tipo="Paramecia">
+    <h2>Tipo Paramecia</h2>
+    <p>Son las más comunes. Afectan al cuerpo del consumidor, al entorno o permiten generar sustancias.</p>
+    
+    <div class="galeria-frutas">
+        <article class="tarjeta-fruta">
+            <h3>Ope Ope no Mi</h3>
+            <div class="placeholder-imagen">
+                <img src="img/paramecia/law/doctor.jpg" alt="Ope Ope no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Trafalgar Law</p>
+        </article>
+
+        <article class="tarjeta-fruta">
+            <h3>Hana Hana no Mi</h3>
+            <div class="placeholder-imagen">
+                <img src="img/paramecia/robin/flor.jpg" alt="Hana Hana no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Nico Robin</p>
+        </article>
+
+        <article class="tarjeta-fruta">
+            <h3>Gura Gura no Mi</h3>
+            <div class="placeholder-imagen">
+                <img src="img/paramecia/shirohige/terremoto.jpg" alt="Gura Gura no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Shirohige</p>
+        </article>
+    </div>
+</section>
+
+<section id="logia" class="tipo-overlay" data-tipo="Logia">
+    <h2>Tipo Logia</h2>
+    <p>Permiten al usuario transformarse en un elemento natural, crearlo y controlarlo.</p>
+    
+    <div class="galeria-frutas">
+        <article class="tarjeta-fruta">
+            <h3>Mera Mera no Mi</h3>
+            <div class="placeholder-imagen">
+                <img src="img/logia/ace/fuego.jpg" alt="Mera Mera no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> <strong>Anterior:</strong> Portgas D. Ace / <strong>Actual:</strong> Sabo</p>
+        </article>
+
+        <article class="tarjeta-fruta">
+            <h3>Suna Suna no Mi</h3>
+            <div class="placeholder-imagen">
+                <img src="img/logia/crocodile/arena.jpg" alt="Suna Suna no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Crocodile</p>
+        </article>
+
+        <article class="tarjeta-fruta">
+            <h3>Goro Goro no Mi</h3>
+            <div class="placeholder-imagen">
+                <img src="img/logia/enel/rayo.jpg" alt="Goro Goro no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Enel</p>
+        </article>
+    </div>
+</section>
+
+<section id="zoan" class="tipo-overlay" data-tipo="Zoan">
+    <h2>Tipo Zoan</h2>
+    <p>Permiten al consumidor transformarse en una especie animal o en un híbrido.</p>
+    
+    <div class="galeria-frutas">
+        <article class="tarjeta-fruta">
+            <h3>Uo Uo no Mi: Modelo Seiryu</h3>
+            <div class="placeholder-imagen">
+            <img src="img/zoan/kaido/dragon.jpg" alt="Uo Uo no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Kaido</p>
+        </article>
+
+        <article class="tarjeta-fruta">
+            <h3>Hito Hito no Mi: Modelo Nika</h3>
+            <div class="placeholder-imagen">
+                <img src="img/zoan/luffy/nika.jpg" alt="Hito Hito no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Monkey D. Luffy</p>
+        </article>
+
+        <article class="tarjeta-fruta">
+            <h3>Tori Tori no Mi: Modelo Fénix</h3>
+            <div class="placeholder-imagen">
+                <img src="img/zoan/marco/fenix.jpg" alt="Tori Tori no Mi">
+            </div>
+            <p><strong>Consumidor:</strong> Marco</p>
+        </article>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NakamaWiki - MugiwaraDevs</p>
+    </footer>
 </body>
 </html>
