@@ -1,13 +1,81 @@
- 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
 }
- 
-body {
-  background-color: #003366;
-  color: white;
-  font-family: Arial, sans-serif;
-  padding: 2rem;
+
+.fondo{
+    background-color: black;
 }
+
+.cabezera{
+    position: static;
+    top: 0;
+    background-color: rgb(255, 0, 0); 
+    text-align: center;
+    padding: 6rem;
+    margin: 0; 
+    border: 0.2rem solid black;
+
+}
+
+.nav{
+
+margin: 0 ;
+border: 0.2rem solid black;
+
+}
+.nav-contenido{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    padding: 1rem;
+    margin: 0;
+    list-style: none;
+    gap: 2rem;
+    text-align: center;
+}
+
+.text-inicio{
+
+padding: 1.5rem;
+text-align: justify;
+line-height: 2rem;
+
+
+}
+
+#inicio{
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+
+.titulo-h1{
+
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    -webkit-text-stroke: 0.09rem black;
+
+}
+
+.titulo-p{
+
+    font-size: 1.5rem; ;
+    text-align: center;
+    padding: 0.8rem;
+    -webkit-text-stroke: 0.05rem black;
+
+}
+
+
+
+
+
+
+
